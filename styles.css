@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+}
+
+.header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 5px solid #ff3d3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    display: block;
+    font-size: 1rem; /* Ajusta el tamaño de texto */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 0.9rem; /* Tamaño más pequeño en móviles */
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
+
+
+footer {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.1em;
+    text-align: center;
+}
